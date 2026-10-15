@@ -1,0 +1,66 @@
+#Container {
+  margin: auto;
+  text-align: center;
+}
+
+#TheImage {
+  height: 300px;
+  width: auto;
+}
+
+#hidden {
+  display: none;
+}
+
+#TextDiv {
+  color: white;
+  margin: auto;
+}
+
+#ButtonDiv {
+  height: auto;
+  margin: auto;
+  padding: 20px;
+  max-width: 490px;
+  gap: 20px;
+}
+
+#Btn1,
+#Btn2,
+#playAgainBtn {
+  border-radius: 10px;
+  max-width: 250px;
+  padding: 10px;
+  border-color: black;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: grey;
+  transition: background 0.2s ease;
+}
+
+#Btn1:hover,
+#Btn2:hover,
+#playAgainBtn:hover {
+  background-color: white;
+}
+
+h1,
+h2 {
+  color: white;
+  font-family: "Special Elite", serif;
+}
+
+body {
+  background-color: #0a0a0a;
+  border-radius: 10px;
+  padding: 20px;
+  /* max-height: 750px; */
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
